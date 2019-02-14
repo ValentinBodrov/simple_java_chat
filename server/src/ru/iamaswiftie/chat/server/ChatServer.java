@@ -33,6 +33,7 @@ public class ChatServer implements TCPConnectionListener {
     @Override
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
+        sendToAllConnections("Client connected: " + tcpConnection + "\nSay \"hello\"!");
         System.out.println("Client connected: " + tcpConnection);
     }
 
