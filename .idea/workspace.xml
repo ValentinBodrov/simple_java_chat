@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78d143f2-2fd3-4f00-8eaf-e7ee40e1c67c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Лабиринт/генерация на жабе/labyrinth/labyrinth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Университетское/3-й курс/Java/для course_work/pleasestopit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="78d143f2-2fd3-4f00-8eaf-e7ee40e1c67c" name="Default Changelist" comment="connecting from intelliji2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/network/ru/iamaswiftie/network/TCPConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/ru/iamaswiftie/network/TCPConnection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/network/ru/iamaswiftie/network/TCPConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/network/ru/iamaswiftie/network/TCPConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/ru/iamaswiftie/chat/server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/ru/iamaswiftie/chat/server/ChatServer.class" afterDir="false" />
+    </list>
+    <list id="22239498-59ec-4264-88b9-28865a83a7d4" name="connecting from intelliji" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/ru/iamaswiftie/chat/client/ClientWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ru/iamaswiftie/chat/client/ClientWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/ru/iamaswiftie/chat/client/ClientWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/ru/iamaswiftie/chat/client/ClientWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/ru/iamaswiftie/chat/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/ru/iamaswiftie/chat/server/ChatServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="272">
               <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/ru/iamaswiftie/chat/server/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="51" column="84" lean-forward="true" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
+            <state relative-caret-position="175">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/ru/iamaswiftie/chat/client/ClientWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            <state relative-caret-position="-197">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,14 +63,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="me" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnectionListener.java" />
-        <option value="$PROJECT_DIR$/client/src/ru/iamaswiftie/chat/client/ClientWindow.java" />
         <option value="$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnection.java" />
+        <option value="$PROJECT_DIR$/client/src/ru/iamaswiftie/chat/client/ClientWindow.java" />
         <option value="$PROJECT_DIR$/server/src/ru/iamaswiftie/chat/server/ChatServer.java" />
       </list>
     </option>
@@ -91,8 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,19 +145,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550175732952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550419058021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1484375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,23 +218,33 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="78d143f2-2fd3-4f00-8eaf-e7ee40e1c67c" name="Default Changelist" comment="" />
+      <changelist id="22239498-59ec-4264-88b9-28865a83a7d4" name="connecting from intelliji" comment="" />
       <created>1550139458625</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550139458625</updated>
       <workItem from="1550139463234" duration="6504000" />
-      <workItem from="1550162786788" duration="2384000" />
+      <workItem from="1550162786788" duration="3168000" />
+      <workItem from="1550398173490" duration="2597000" />
     </task>
+    <task id="LOCAL-00001" summary="connecting from intelliji">
+      <created>1550418790880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550418790880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8888000" />
+    <option name="totallyTimeSpent" value="12269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -240,17 +253,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -265,6 +278,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="connecting from intelliji" />
+    <option name="LAST_COMMIT_MESSAGE" value="connecting from intelliji" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnectionListener.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -275,7 +318,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network/src/ru/iamaswiftie/network/TCPConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="272">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -285,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/ru/iamaswiftie/chat/client/ClientWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        <state relative-caret-position="-197">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -295,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/ru/iamaswiftie/chat/server/ChatServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="51" column="84" lean-forward="true" selection-start-line="51" selection-start-column="84" selection-end-line="51" selection-end-column="84" />
+        <state relative-caret-position="175">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
