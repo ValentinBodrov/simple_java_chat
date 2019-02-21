@@ -31,11 +31,10 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
 
     private TCPConnection connection;
 
-    private ClientWindow() {
+    protected ClientWindow() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
-        setAlwaysOnTop(true);
 
         log.setEditable(false);
         log.setLineWrap(true);
@@ -53,6 +52,30 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
         }
     }
 
+    protected ClientWindow(String username) {
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setSize(WIDTH, HEIGHT);
+        setLocationRelativeTo(null);
+
+        log.setEditable(false);
+        log.setLineWrap(true);
+
+        fieldNickname.setText(username);
+
+        fieldInput.addActionListener(this);
+        add(log, BorderLayout.CENTER);
+        add(fieldInput, BorderLayout.SOUTH);
+        add(fieldNickname, BorderLayout.NORTH);
+
+        setVisible(true);
+        try {
+            connection = new TCPConnection(this, IP_ADDR, PORT);
+            connection.sendString(username + " connected");
+        } catch (IOException e) {
+            printMsg("Connection exception: " + e);
+        }
+    }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -61,7 +84,6 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
         fieldInput.setText(null);
         connection.sendString(fieldNickname.getText() + ": " + msg);
     }
-
 
     @Override
     public void onConnectionReady(TCPConnection tcpConnection) {
@@ -74,8 +96,7 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
     }
 
     @Override
-    public void onDisconnect(TCPConnection tcpConnection) {
-        printMsg("Connection close");
+    public void onDisconnect(TCPConnection tcpConnection) { printMsg("Connection close");
     }
 
     @Override

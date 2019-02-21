@@ -14,7 +14,6 @@ public class TCPConnection {
 
     public TCPConnection(TCPConnectionListener eventListener, String ipAddr, int port) throws IOException{
         this(eventListener, new Socket(ipAddr, port));
-        //this.sendString();
     }
 
     public TCPConnection (TCPConnectionListener eventListener, Socket socket) throws IOException {
