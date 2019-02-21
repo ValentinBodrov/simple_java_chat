@@ -29,7 +29,7 @@ public class ChatServer implements TCPConnectionListener {
             throw new RuntimeException(e);
         }
     }
-    //lol
+
     @Override
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
