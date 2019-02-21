@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78d143f2-2fd3-4f00-8eaf-e7ee40e1c67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/network/network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/ru/iamaswiftie/chat/client/ClientWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/ru/iamaswiftie/chat/client/ClientWindow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/ru/iamaswiftie/chat/server/ChatServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/ru/iamaswiftie/chat/server/ChatServer.class" afterDir="false" />
     </list>
     <list id="22239498-59ec-4264-88b9-28865a83a7d4" name="connecting from intelliji" comment="">
       <change beforePath="$PROJECT_DIR$/out/production/client/ru/iamaswiftie/chat/client/ClientWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/ru/iamaswiftie/chat/client/ClientWindow.class" afterDir="false" />
@@ -113,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/network/src/ru/iamaswiftie/network/ManagementSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="12" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="782">
+              <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,7 +236,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550751110402" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550751347146" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/network/lib/mysql-connector-java-8.0.13.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -336,7 +332,7 @@
       <workItem from="1550162786788" duration="3168000" />
       <workItem from="1550398173490" duration="3540000" />
       <workItem from="1550424218872" duration="11000" />
-      <workItem from="1550740915570" duration="8277000" />
+      <workItem from="1550740915570" duration="8540000" />
     </task>
     <task id="LOCAL-00001" summary="connecting from intelliji">
       <created>1550418790880</created>
@@ -373,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550744849179</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added log in">
+      <created>1550751208342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550751208342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21500000" />
+    <option name="totallyTimeSpent" value="21763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -408,7 +411,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -464,7 +467,8 @@
     <MESSAGE value="testing that connection" />
     <MESSAGE value="starting with the work today" />
     <MESSAGE value="попытка прикрутить авторизацию" />
-    <option name="LAST_COMMIT_MESSAGE" value="попытка прикрутить авторизацию" />
+    <MESSAGE value="added log in" />
+    <option name="LAST_COMMIT_MESSAGE" value="added log in" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/src/ru/iamaswiftie/chat/server/ChatServer.java">
@@ -530,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/network/src/ru/iamaswiftie/network/ManagementSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="12" selection-end-line="42" selection-end-column="15" />
+        <state relative-caret-position="782">
+          <caret line="46" column="69" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
